@@ -1077,3 +1077,4 @@ C:\Users\Yanislav\Desktop\FastFoodMAUI\FastFoodMAUI\obj\Debug\net8.0-android\sta
 C:\Users\Yanislav\Desktop\FastFoodMAUI\FastFoodMAUI\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\Yanislav\Desktop\FastFoodMAUI\FastFoodMAUI\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Yanislav\Desktop\FastFoodMAUI\FastFoodMAUI\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Yanislav\Desktop\FastFoodMAUI\FastFoodMAUI\obj\Debug\net8.0-android\FastFoodMAUI.sourcelink.json

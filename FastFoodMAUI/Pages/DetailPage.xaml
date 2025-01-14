@@ -43,7 +43,7 @@
                 </Grid>
 
                 <Label Text="Description" FontSize="15" FontAttributes="Bold" Margin="0, 10"/>
-                <Label FontSize="14" LineHeight="1.5" Text="This is some random description for this pizza so that we can display pizza details page.his is some random description for this pizza so that we can display pizza details page.his is some random description for this pizza so that we can display pizza details page.his is some random description for this pizza so that we can display pizza details page.his is some random description for this pizza so that we can display pizza details page."/>
+                <Label FontSize="14" LineHeight="1.5" Text="{Binding Food.Description}"/>
             </VerticalStackLayout>
         </ScrollView>
         <Border StrokeThickness="0" BackgroundColor="DarkGoldenrod" Margin="-1" VerticalOptions="End" HeightRequest="150" Padding="15" StrokeShape="RoundRectangle 30, 30, 0, 0">
