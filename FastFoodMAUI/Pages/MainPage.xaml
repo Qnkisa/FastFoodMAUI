@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FastFoodMAUI.Pages.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="DarkGoldenrod">
+
+    <Grid RowDefinitions="Auto, *, Auto" Padding="15, 25">
+        <Label Grid.Row="0" Text="FastFood" FontSize="50" HorizontalOptions="Center" FontAttributes="Bold"/>
+
+        <Image Grid.Row="1" Source="doner_kebab.png" HeightRequest="250" WidthRequest="250" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+        <VerticalStackLayout Grid.Row="2" Spacing="10">
+            <Label Text="Satisfy Your Cravings" FontSize="25" FontAttributes="Bold"/>
+            <Label Text="Discover delicious meals delivered fast and fresh, right to your doorstep. Ordering has never been this easy!" FontSize="15" LineHeight="1.2"/>
+            <Border StrokeShape="RoundRectangle 25" StrokeThickness="0" BackgroundColor="Goldenrod" HeightRequest="50">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                </Border.GestureRecognizers>
+                <HorizontalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="10" Padding="0, 5">
+                    <Label Text="Get Started" VerticalOptions="Center" FontSize="18"/>
+                    <Image Source="right_arrow.png" VerticalOptions="Center" HeightRequest="10"/>
+                </HorizontalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>
